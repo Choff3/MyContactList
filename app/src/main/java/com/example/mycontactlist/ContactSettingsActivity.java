@@ -27,7 +27,7 @@ public class ContactSettingsActivity extends AppCompatActivity {
         prefs = getSharedPreferences("bgColor", MODE_PRIVATE);
         SharedPreferences.Editor editor = prefs.edit();
 
-        String colorStr = prefs.getString("color", "WHITE");
+        String colorStr = prefs.getString("color", "WHITE"); //String for holding the String value of the color stored in sharedprefs
 
         if(colorStr.equals("BLUE")){
             scrollviewobject.setBackgroundResource(R.color.blue);
