@@ -1,0 +1,4 @@
+#Wed Feb 13 21:33:14 EST 2019
+base.0=/Users/teddy/AndroidStudioProjects/MyContactList/app/build/intermediates/transforms/dexMerger/debug/1
+path.0=classes.dex
+renamed.0=classes.dex

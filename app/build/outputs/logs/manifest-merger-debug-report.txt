@@ -1,0 +1,159 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/teddy/AndroidStudioProjects/MyContactList/app/src/main/AndroidManifest.xml:2:1-23:12
+INJECTED from /Users/teddy/AndroidStudioProjects/MyContactList/app/src/main/AndroidManifest.xml:2:1-23:12
+INJECTED from /Users/teddy/AndroidStudioProjects/MyContactList/app/src/main/AndroidManifest.xml:2:1-23:12
+INJECTED from /Users/teddy/AndroidStudioProjects/MyContactList/app/src/main/AndroidManifest.xml:2:1-23:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/teddy/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/ce478782e608059b3c8c19bed821657a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/teddy/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/f1d971bb86400684869d3eaebcd32614/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/teddy/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/c2af2377814c68c26a805fedd89aba87/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/teddy/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/455d1c799552c3b3361e14bed9c6394e/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/teddy/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/f8ec2918cadc586032932d8330893262/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/teddy/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/a5ff9ef2be283d4b24f63ce03d974f2b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] /Users/teddy/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/465fce56baee2d682b3050e1044bc20a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] /Users/teddy/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/0953a93e8c5e4e4de1e4600b630afb20/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/teddy/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/67e86db69f4da8ce4b91ba365660f995/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/teddy/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/d30eedd504391c34b94602a23976b8e8/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/teddy/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/5af0597a829983034a8fce27160b4c78/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] /Users/teddy/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/76e4552137c4a0614342c387b007763d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/teddy/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/c57e2124552e5a2f67c37645257a29f0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/teddy/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/64468d39fd1d082150644c4303e7b81a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] /Users/teddy/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/ae67436e33c481aaccaf0eb33baaced7/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/teddy/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/254c5c1ea0010ae8b8e6c3db23a259b9/AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/teddy/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/7dad72cd64ce733d0d5da5d07e23989c/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/teddy/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/de3d32bd8d9b20dd3c760bca49fb8fba/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] /Users/teddy/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/b2d00863f548de68a4e1ecf4127f858d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/teddy/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/fec49e26a8edaba81ab95a6ac0cc903e/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] /Users/teddy/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/e50a8d4f61052b05a4600ed4b6ba37d1/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/teddy/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/475f3f91fa4cfd0518147b2f6ae2ffb2/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/teddy/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/89ca99d49e8c7012071a41d06243395b/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/teddy/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/2132e8b3abebe307c9b6d84b643889a4/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] /Users/teddy/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/ec8d8d634fc8f2eb2091691e329838a1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] /Users/teddy/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/a4ba5e1bcc6d5ec8d28f97b75707dbe6/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/teddy/AndroidStudioProjects/MyContactList/app/src/main/AndroidManifest.xml:2:1-23:12
+INJECTED from /Users/teddy/AndroidStudioProjects/MyContactList/app/src/main/AndroidManifest.xml:2:1-23:12
+INJECTED from /Users/teddy/AndroidStudioProjects/MyContactList/app/src/main/AndroidManifest.xml:2:1-23:12
+	package
+		ADDED from /Users/teddy/AndroidStudioProjects/MyContactList/app/src/main/AndroidManifest.xml:3:5-40
+		INJECTED from /Users/teddy/AndroidStudioProjects/MyContactList/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/teddy/AndroidStudioProjects/MyContactList/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/teddy/AndroidStudioProjects/MyContactList/app/src/main/AndroidManifest.xml
+		ADDED from /Users/teddy/AndroidStudioProjects/MyContactList/app/src/main/AndroidManifest.xml:2:1-23:12
+		INJECTED from /Users/teddy/AndroidStudioProjects/MyContactList/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/teddy/AndroidStudioProjects/MyContactList/app/src/main/AndroidManifest.xml
+		ADDED from /Users/teddy/AndroidStudioProjects/MyContactList/app/src/main/AndroidManifest.xml:2:1-23:12
+		INJECTED from /Users/teddy/AndroidStudioProjects/MyContactList/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/teddy/AndroidStudioProjects/MyContactList/app/src/main/AndroidManifest.xml:2:11-69
+application
+ADDED from /Users/teddy/AndroidStudioProjects/MyContactList/app/src/main/AndroidManifest.xml:5:5-21:19
+MERGED from [com.android.support:support-compat:28.0.0] /Users/teddy/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/ae67436e33c481aaccaf0eb33baaced7/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] /Users/teddy/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/ae67436e33c481aaccaf0eb33baaced7/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/teddy/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/254c5c1ea0010ae8b8e6c3db23a259b9/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/teddy/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/254c5c1ea0010ae8b8e6c3db23a259b9/AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] /Users/teddy/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/ae67436e33c481aaccaf0eb33baaced7/AndroidManifest.xml:22:18-91
+	android:supportsRtl
+		ADDED from /Users/teddy/AndroidStudioProjects/MyContactList/app/src/main/AndroidManifest.xml:9:9-35
+	android:label
+		ADDED from /Users/teddy/AndroidStudioProjects/MyContactList/app/src/main/AndroidManifest.xml:8:9-41
+	android:icon
+		ADDED from /Users/teddy/AndroidStudioProjects/MyContactList/app/src/main/AndroidManifest.xml:7:9-56
+	android:allowBackup
+		ADDED from /Users/teddy/AndroidStudioProjects/MyContactList/app/src/main/AndroidManifest.xml:6:9-35
+	android:theme
+		ADDED from /Users/teddy/AndroidStudioProjects/MyContactList/app/src/main/AndroidManifest.xml:10:9-40
+activity#com.example.mycontactlist.ContactActivity
+ADDED from /Users/teddy/AndroidStudioProjects/MyContactList/app/src/main/AndroidManifest.xml:11:9-17:20
+	android:name
+		ADDED from /Users/teddy/AndroidStudioProjects/MyContactList/app/src/main/AndroidManifest.xml:11:19-50
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/teddy/AndroidStudioProjects/MyContactList/app/src/main/AndroidManifest.xml:12:13-16:29
+action#android.intent.action.MAIN
+ADDED from /Users/teddy/AndroidStudioProjects/MyContactList/app/src/main/AndroidManifest.xml:13:17-69
+	android:name
+		ADDED from /Users/teddy/AndroidStudioProjects/MyContactList/app/src/main/AndroidManifest.xml:13:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/teddy/AndroidStudioProjects/MyContactList/app/src/main/AndroidManifest.xml:15:17-77
+	android:name
+		ADDED from /Users/teddy/AndroidStudioProjects/MyContactList/app/src/main/AndroidManifest.xml:15:27-74
+activity#com.example.mycontactlist.ContactListActivity
+ADDED from /Users/teddy/AndroidStudioProjects/MyContactList/app/src/main/AndroidManifest.xml:18:9-57
+	android:name
+		ADDED from /Users/teddy/AndroidStudioProjects/MyContactList/app/src/main/AndroidManifest.xml:18:19-54
+activity#com.example.mycontactlist.ContactMapActivity
+ADDED from /Users/teddy/AndroidStudioProjects/MyContactList/app/src/main/AndroidManifest.xml:19:9-56
+	android:name
+		ADDED from /Users/teddy/AndroidStudioProjects/MyContactList/app/src/main/AndroidManifest.xml:19:19-53
+activity#com.example.mycontactlist.ContactSettingsActivity
+ADDED from /Users/teddy/AndroidStudioProjects/MyContactList/app/src/main/AndroidManifest.xml:20:9-70
+	android:name
+		ADDED from /Users/teddy/AndroidStudioProjects/MyContactList/app/src/main/AndroidManifest.xml:20:19-58
+uses-sdk
+INJECTED from /Users/teddy/AndroidStudioProjects/MyContactList/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/teddy/AndroidStudioProjects/MyContactList/app/src/main/AndroidManifest.xml
+INJECTED from /Users/teddy/AndroidStudioProjects/MyContactList/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/teddy/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/ce478782e608059b3c8c19bed821657a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/teddy/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/ce478782e608059b3c8c19bed821657a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/teddy/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/f1d971bb86400684869d3eaebcd32614/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/teddy/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/f1d971bb86400684869d3eaebcd32614/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/teddy/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/c2af2377814c68c26a805fedd89aba87/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/teddy/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/c2af2377814c68c26a805fedd89aba87/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/teddy/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/455d1c799552c3b3361e14bed9c6394e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/teddy/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/455d1c799552c3b3361e14bed9c6394e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/teddy/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/f8ec2918cadc586032932d8330893262/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/teddy/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/f8ec2918cadc586032932d8330893262/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/teddy/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/a5ff9ef2be283d4b24f63ce03d974f2b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/teddy/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/a5ff9ef2be283d4b24f63ce03d974f2b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/teddy/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/465fce56baee2d682b3050e1044bc20a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/teddy/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/465fce56baee2d682b3050e1044bc20a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/teddy/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/0953a93e8c5e4e4de1e4600b630afb20/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/teddy/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/0953a93e8c5e4e4de1e4600b630afb20/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/teddy/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/67e86db69f4da8ce4b91ba365660f995/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/teddy/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/67e86db69f4da8ce4b91ba365660f995/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/teddy/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/d30eedd504391c34b94602a23976b8e8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/teddy/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/d30eedd504391c34b94602a23976b8e8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/teddy/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/5af0597a829983034a8fce27160b4c78/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/teddy/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/5af0597a829983034a8fce27160b4c78/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/teddy/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/76e4552137c4a0614342c387b007763d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/teddy/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/76e4552137c4a0614342c387b007763d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/teddy/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/c57e2124552e5a2f67c37645257a29f0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/teddy/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/c57e2124552e5a2f67c37645257a29f0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/teddy/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/64468d39fd1d082150644c4303e7b81a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/teddy/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/64468d39fd1d082150644c4303e7b81a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/teddy/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/ae67436e33c481aaccaf0eb33baaced7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/teddy/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/ae67436e33c481aaccaf0eb33baaced7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/teddy/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/254c5c1ea0010ae8b8e6c3db23a259b9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/teddy/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/254c5c1ea0010ae8b8e6c3db23a259b9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/teddy/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/7dad72cd64ce733d0d5da5d07e23989c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/teddy/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/7dad72cd64ce733d0d5da5d07e23989c/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/teddy/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/de3d32bd8d9b20dd3c760bca49fb8fba/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/teddy/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/de3d32bd8d9b20dd3c760bca49fb8fba/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/teddy/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/b2d00863f548de68a4e1ecf4127f858d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/teddy/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/b2d00863f548de68a4e1ecf4127f858d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/teddy/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/fec49e26a8edaba81ab95a6ac0cc903e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/teddy/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/fec49e26a8edaba81ab95a6ac0cc903e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/teddy/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/e50a8d4f61052b05a4600ed4b6ba37d1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/teddy/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/e50a8d4f61052b05a4600ed4b6ba37d1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/teddy/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/475f3f91fa4cfd0518147b2f6ae2ffb2/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/teddy/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/475f3f91fa4cfd0518147b2f6ae2ffb2/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/teddy/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/89ca99d49e8c7012071a41d06243395b/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/teddy/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/89ca99d49e8c7012071a41d06243395b/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/teddy/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/2132e8b3abebe307c9b6d84b643889a4/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/teddy/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/2132e8b3abebe307c9b6d84b643889a4/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/teddy/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/ec8d8d634fc8f2eb2091691e329838a1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/teddy/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/ec8d8d634fc8f2eb2091691e329838a1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/teddy/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/a4ba5e1bcc6d5ec8d28f97b75707dbe6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/teddy/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/a4ba5e1bcc6d5ec8d28f97b75707dbe6/AndroidManifest.xml:20:5-44
+INJECTED from /Users/teddy/AndroidStudioProjects/MyContactList/app/src/main/AndroidManifest.xml
+INJECTED from /Users/teddy/AndroidStudioProjects/MyContactList/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/teddy/AndroidStudioProjects/MyContactList/app/src/main/AndroidManifest.xml
+		ADDED from /Users/teddy/AndroidStudioProjects/MyContactList/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/teddy/AndroidStudioProjects/MyContactList/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/teddy/AndroidStudioProjects/MyContactList/app/src/main/AndroidManifest.xml
+		ADDED from /Users/teddy/AndroidStudioProjects/MyContactList/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/teddy/AndroidStudioProjects/MyContactList/app/src/main/AndroidManifest.xml
