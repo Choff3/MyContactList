@@ -15,6 +15,7 @@ public class ContactSettingsActivity extends AppCompatActivity {
 
     static SharedPreferences prefs;
     static View scrollviewobject;
+    //Scrollview Object for changing the background color and SharedPrefs object for storing color preference.
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,8 +25,8 @@ public class ContactSettingsActivity extends AppCompatActivity {
 
         scrollviewobject = findViewById(R.id.scrollView1);
 
-        prefs = getSharedPreferences("bgColor", MODE_PRIVATE);
-        SharedPreferences.Editor editor = prefs.edit();
+        prefs = getSharedPreferences("bgColor", MODE_PRIVATE); //setting the shared prefs object to private with the name bgColor
+        SharedPreferences.Editor editor = prefs.edit(); //edit object for changing the color preference
 
         String colorStr = prefs.getString("color", "WHITE"); //String for storing the String value of the color in SharedPrefs
 
@@ -41,6 +42,7 @@ public class ContactSettingsActivity extends AppCompatActivity {
         else{
             scrollviewobject.setBackgroundResource(R.color.white);
         }
+        //changing the color of the scrollview depending on the colorStr
 
         initListButton();
         initSettingsButton();
@@ -165,8 +167,9 @@ public class ContactSettingsActivity extends AppCompatActivity {
                     prefs.edit().putString("color", "YELLOW").commit();
                     scrollviewobject.setBackgroundResource(R.color.yellow);
                 }
-            }
+            }//method for allowing the color radio button group to edit the bgColor sharedprefs
         });
     }
+    //initiates the the bgColor radio group
 
 }
