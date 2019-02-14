@@ -15,7 +15,7 @@ public class ContactSettingsActivity extends AppCompatActivity {
 
     static SharedPreferences prefs;
     static View scrollviewobject;
-
+    //o
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
