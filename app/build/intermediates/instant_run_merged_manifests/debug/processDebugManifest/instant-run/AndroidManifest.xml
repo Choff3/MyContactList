@@ -17,14 +17,14 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
-        <activity android:name="com.example.mycontactlist.ContactActivity" >
+        <activity android:name="com.example.mycontactlist.ContactListActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.example.mycontactlist.ContactListActivity" />
+        <activity android:name="com.example.mycontactlist.ContactActivity" />
         <activity android:name="com.example.mycontactlist.ContactMapActivity" />
         <activity android:name="com.example.mycontactlist.ContactSettingsActivity" />
 
