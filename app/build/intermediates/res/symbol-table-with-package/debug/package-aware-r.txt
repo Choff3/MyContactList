@@ -765,6 +765,7 @@ id textAddress
 id textBday
 id textBirthday
 id textCell
+id textCityStateZip
 id textContact
 id textContactName
 id textContactSort
@@ -773,6 +774,7 @@ id textHome
 id textPhoneNumber
 id textSpacerNoButtons
 id textSpacerNoTitle
+id textStreetAddress
 id textView2
 id textView3
 id time
