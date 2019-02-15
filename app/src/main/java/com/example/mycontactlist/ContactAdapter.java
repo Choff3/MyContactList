@@ -1,6 +1,7 @@
 package com.example.mycontactlist;
 
 import android.content.Context;
+import android.graphics.Color;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -10,10 +11,6 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import java.util.ArrayList;
-
-/**
- * Created by Michael Eierman on 11/14/2016.
- */
 
 public class ContactAdapter extends ArrayAdapter<Contact> {
 
@@ -37,11 +34,23 @@ public class ContactAdapter extends ArrayAdapter<Contact> {
                 v = vi.inflate(R.layout.list_item, null);
             }
 
-            TextView contactName = (TextView) v.findViewById(R.id.textContactName);
+            TextView contactName = (TextView) v.findViewById(R.id.textContactName); //textview object for contact name
+
+            if(position%2==0) //if the position is odd
+                contactName.setTextColor(Color.RED); //change the name color to red
+
             TextView contactNumber = (TextView) v.findViewById(R.id.textPhoneNumber);
             Button b = (Button) v.findViewById(R.id.buttonDeleteContact);
             contactName.setText(contact.getContactName());
             contactNumber.setText(contact.getPhoneNumber());
+
+            TextView contactStreet = (TextView) v.findViewById(R.id.textStreetAddress); //add textview for Street
+            TextView contactCSZ = (TextView) v.findViewById(R.id.textCityStateZip); //add textview for City, State and Zip
+
+            contactStreet.setText(contact.getStreetAddress());
+            contactCSZ.setText(contact.getCity()+", "+contact.getState()+", "+contact.getZipCode());
+            //Set the text of the textview object to the corresponding field from the contact object.
+
             b.setVisibility(View.INVISIBLE);
         }
         catch (Exception e) {
