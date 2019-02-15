@@ -1,4 +1,4 @@
-#Tue Feb 12 20:47:10 EST 2019
-base.0=/Users/teddy/AndroidStudioProjects/MyContactList/app/build/intermediates/transforms/dexMerger/debug/8
+#Thu Feb 14 15:20:18 EST 2019
+base.0=C\:\\Users\\choff6-gtri\\AndroidStudioProjects\\MyContactList\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\8
 path.0=classes.dex
 renamed.0=classes.dex
