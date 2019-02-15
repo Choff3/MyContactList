@@ -16,7 +16,6 @@ public class ContactSettingsActivity extends AppCompatActivity {
     static SharedPreferences prefs;
     static View scrollviewobject;
     //Scrollview Object for changing the background color and SharedPrefs object for storing color preference.
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
