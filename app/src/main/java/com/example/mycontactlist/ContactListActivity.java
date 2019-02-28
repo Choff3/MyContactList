@@ -1,8 +1,11 @@
 package com.example.mycontactlist;
 
 import android.app.ListActivity;
+import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
+import android.content.IntentFilter;
+import android.os.BatteryManager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -11,11 +14,12 @@ import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.ListView;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import java.util.ArrayList;
 
-public class ContactListActivity extends ListActivity {
+public class ContactListActivity extends AppCompatActivity {
     ArrayList<Contact> contacts;
     boolean isDeleting = false;
     ContactAdapter adapter;
@@ -31,6 +35,20 @@ public class ContactListActivity extends ListActivity {
         initDeleteButton();
         initAddContactButton();
 
+        BroadcastReceiver batteryReceiver = new BroadcastReceiver() {
+            @Override
+            public void onReceive(Context context, Intent intent) {
+                double batteryLevel= intent.getIntExtra(BatteryManager.EXTRA_LEVEL,0);
+                double levelScale= intent.getIntExtra(BatteryManager.EXTRA_SCALE,0);
+                int batteryPercent = (int) Math.floor(batteryLevel/levelScale*100);
+                TextView textBatteryState=(TextView)findViewById(R.id.textBatteryLevel);
+                textBatteryState.setText(batteryPercent+"%");
+            }
+        };
+
+        IntentFilter filter = new IntentFilter(Intent.ACTION_BATTERY_CHANGED);
+        registerReceiver(batteryReceiver, filter);
+
     }
 
     @Override
@@ -45,14 +63,15 @@ public class ContactListActivity extends ListActivity {
             contacts = ds.getContacts(sortBy, sortOrder);
             ds.close();
             adapter = new ContactAdapter(this, contacts);
-            setListAdapter(adapter);
+            ListView listView = (ListView) findViewById(R.id.lvContacts);
+            listView.setAdapter(adapter);
         }
         catch (Exception e) {
             Toast.makeText(this, "Error retrieving contacts", Toast.LENGTH_LONG).show();
         }
 
         if (contacts.size() > 0) {
-            ListView listView = getListView();
+            ListView listView = (ListView) findViewById(R.id.lvContacts);
             listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
 
                 @Override

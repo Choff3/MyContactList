@@ -4,6 +4,25 @@
             "outputFile": "/Users/teddy/AndroidStudioProjects/MyContactList/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v23/values-v23.xml",
             "map": [
                 {
+                    "source": "/Users/teddy/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/30e5783d15bfd5e678bfe9702f7af040/res/values-v23/values-v23.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "4",
+                        "endColumns": "12",
+                        "endOffsets": "200"
+                    },
+                    "to": {
+                        "startLines": "37",
+                        "startColumns": "4",
+                        "startOffsets": "2646",
+                        "endLines": "39",
+                        "endColumns": "12",
+                        "endOffsets": "2791"
+                    }
+                },
+                {
                     "source": "/Users/teddy/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/ce478782e608059b3c8c19bed821657a/res/values-v23/values-v23.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,19,32,33,34,35,36",
