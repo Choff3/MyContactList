@@ -31,6 +31,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 import android.widget.ToggleButton;
 
+import java.sql.SQLException;
 import java.util.Calendar;
 
 public class ContactActivity extends AppCompatActivity implements DatePickerDialog.SaveDateListener{
@@ -56,14 +57,14 @@ public class ContactActivity extends AppCompatActivity implements DatePickerDial
         initCallFunction();
         initImageButton();
 
-        /*Bundle extras = getIntent().getExtras();
+        Bundle extras = getIntent().getExtras();
         if(extras != null) {
             initContact(extras.getInt("contactid"));
         }
         else {
             currentContact = new Contact();
         }
-        */
+
 
     }
 
@@ -444,14 +445,10 @@ public class ContactActivity extends AppCompatActivity implements DatePickerDial
     private void initContact(int id) {
 
         ContactDataSource ds = new ContactDataSource(ContactActivity.this);
-        try {
-            ds.open();
-            currentContact = ds.getSpecificContact(id);
-            ds.close();
-        }
-        catch (Exception e) {
-            Toast.makeText(this, "Load Contact Failed", Toast.LENGTH_LONG).show();
-        }
+
+        ds.open();
+        currentContact = ds.getSpecificContact(id);
+        ds.close();
 
         EditText editName = (EditText) findViewById(R.id.editName);
         EditText editAddress = (EditText) findViewById(R.id.editAddress);
@@ -482,7 +479,6 @@ public class ContactActivity extends AppCompatActivity implements DatePickerDial
             picture.setImageResource(R.drawable.photoicon);
         }
     }
-
 
     @Override
     public void didFinishDatePickerDialog(Calendar selectedTime) {
