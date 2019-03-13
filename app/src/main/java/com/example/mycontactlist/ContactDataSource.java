@@ -191,12 +191,12 @@ public class ContactDataSource {
             Calendar calendar = Calendar.getInstance();
             calendar.setTimeInMillis(Long.valueOf(cursor.getString(9)));
             contact.setBirthday(calendar);
-            /*byte[] photo = cursor.getBlob(10);
+            byte[] photo = cursor.getBlob(10);
             if (photo != null) {
                 ByteArrayInputStream imageStream = new ByteArrayInputStream(photo);
                 Bitmap thePicture= BitmapFactory.decodeStream(imageStream);
                 contact.setPicture(thePicture);
-            }*/
+            }
             // I had to comment this out because the camera doesn't work with the emulator.
 
             cursor.close();

@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\choff6-gtri\AndroidStudioProjects\MyContactList\app\src\main\AndroidManifest.xml:2:1-49:12
-INJECTED from C:\Users\choff6-gtri\AndroidStudioProjects\MyContactList\app\src\main\AndroidManifest.xml:2:1-49:12
-INJECTED from C:\Users\choff6-gtri\AndroidStudioProjects\MyContactList\app\src\main\AndroidManifest.xml:2:1-49:12
-INJECTED from C:\Users\choff6-gtri\AndroidStudioProjects\MyContactList\app\src\main\AndroidManifest.xml:2:1-49:12
+ADDED from C:\Users\choff6-gtri\AndroidStudioProjects\MyContactList\app\src\main\AndroidManifest.xml:2:1-51:12
+INJECTED from C:\Users\choff6-gtri\AndroidStudioProjects\MyContactList\app\src\main\AndroidManifest.xml:2:1-51:12
+INJECTED from C:\Users\choff6-gtri\AndroidStudioProjects\MyContactList\app\src\main\AndroidManifest.xml:2:1-51:12
+INJECTED from C:\Users\choff6-gtri\AndroidStudioProjects\MyContactList\app\src\main\AndroidManifest.xml:2:1-51:12
 MERGED from [com.android.support:multidex:1.0.3] C:\Users\choff6-gtri\.gradle\caches\transforms-1\files-1.1\multidex-1.0.3.aar\c4773e8241a8592e650e3819546deb1a\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:design:28.0.0] C:\Users\choff6-gtri\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\4bc9638c221db351e7a06b0a798d8b0e\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.gms:play-services:12.0.1] C:\Users\choff6-gtri\.gradle\caches\transforms-1\files-1.1\play-services-12.0.1.aar\ef55f9742f47f2632f1516d1df307ed5\AndroidManifest.xml:2:1-6:12
@@ -141,20 +141,20 @@ MERGED from [com.google.android.gms:play-services-vision-common-license:12.0.1] 
 MERGED from [com.google.android.gms:play-services-vision-license:12.0.1] C:\Users\choff6-gtri\.gradle\caches\transforms-1\files-1.1\play-services-vision-license-12.0.1.aar\40230cfbe047275788995f77ebaf1981\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.gms:play-services-wallet-license:12.0.1] C:\Users\choff6-gtri\.gradle\caches\transforms-1\files-1.1\play-services-wallet-license-12.0.1.aar\60dc6376456cc1249e883e1f27e9814d\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.gms:play-services-wearable-license:12.0.1] C:\Users\choff6-gtri\.gradle\caches\transforms-1\files-1.1\play-services-wearable-license-12.0.1.aar\db47294308d1d95b5c01a5642724db41\AndroidManifest.xml:17:1-24:12
-INJECTED from C:\Users\choff6-gtri\AndroidStudioProjects\MyContactList\app\src\main\AndroidManifest.xml:2:1-49:12
-INJECTED from C:\Users\choff6-gtri\AndroidStudioProjects\MyContactList\app\src\main\AndroidManifest.xml:2:1-49:12
-INJECTED from C:\Users\choff6-gtri\AndroidStudioProjects\MyContactList\app\src\main\AndroidManifest.xml:2:1-49:12
+INJECTED from C:\Users\choff6-gtri\AndroidStudioProjects\MyContactList\app\src\main\AndroidManifest.xml:2:1-51:12
+INJECTED from C:\Users\choff6-gtri\AndroidStudioProjects\MyContactList\app\src\main\AndroidManifest.xml:2:1-51:12
+INJECTED from C:\Users\choff6-gtri\AndroidStudioProjects\MyContactList\app\src\main\AndroidManifest.xml:2:1-51:12
 	package
 		ADDED from C:\Users\choff6-gtri\AndroidStudioProjects\MyContactList\app\src\main\AndroidManifest.xml:3:5-40
 		INJECTED from C:\Users\choff6-gtri\AndroidStudioProjects\MyContactList\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\choff6-gtri\AndroidStudioProjects\MyContactList\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\choff6-gtri\AndroidStudioProjects\MyContactList\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\choff6-gtri\AndroidStudioProjects\MyContactList\app\src\main\AndroidManifest.xml:2:1-49:12
+		ADDED from C:\Users\choff6-gtri\AndroidStudioProjects\MyContactList\app\src\main\AndroidManifest.xml:2:1-51:12
 		INJECTED from C:\Users\choff6-gtri\AndroidStudioProjects\MyContactList\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\choff6-gtri\AndroidStudioProjects\MyContactList\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\choff6-gtri\AndroidStudioProjects\MyContactList\app\src\main\AndroidManifest.xml:2:1-49:12
+		ADDED from C:\Users\choff6-gtri\AndroidStudioProjects\MyContactList\app\src\main\AndroidManifest.xml:2:1-51:12
 		INJECTED from C:\Users\choff6-gtri\AndroidStudioProjects\MyContactList\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\choff6-gtri\AndroidStudioProjects\MyContactList\app\src\main\AndroidManifest.xml:2:11-69
@@ -223,27 +223,39 @@ ADDED from C:\Users\choff6-gtri\AndroidStudioProjects\MyContactList\app\src\main
 	android:name
 		ADDED from C:\Users\choff6-gtri\AndroidStudioProjects\MyContactList\app\src\main\AndroidManifest.xml:13:22-78
 uses-permission#com.google.android.providers.gsf.permission.READ_GSERVICES
-ADDED from C:\Users\choff6-gtri\AndroidStudioProjects\MyContactList\app\src\main\AndroidManifest.xml:14:5-15:85
+ADDED from C:\Users\choff6-gtri\AndroidStudioProjects\MyContactList\app\src\main\AndroidManifest.xml:14:5-98
 	android:name
-		ADDED from C:\Users\choff6-gtri\AndroidStudioProjects\MyContactList\app\src\main\AndroidManifest.xml:15:9-82
+		ADDED from C:\Users\choff6-gtri\AndroidStudioProjects\MyContactList\app\src\main\AndroidManifest.xml:14:22-95
+uses-permission#android.permission.CALL_PHONE
+ADDED from C:\Users\choff6-gtri\AndroidStudioProjects\MyContactList\app\src\main\AndroidManifest.xml:15:5-69
+	android:name
+		ADDED from C:\Users\choff6-gtri\AndroidStudioProjects\MyContactList\app\src\main\AndroidManifest.xml:15:22-66
+uses-permission#android.permission.SEND_SMS
+ADDED from C:\Users\choff6-gtri\AndroidStudioProjects\MyContactList\app\src\main\AndroidManifest.xml:16:5-66
+	android:name
+		ADDED from C:\Users\choff6-gtri\AndroidStudioProjects\MyContactList\app\src\main\AndroidManifest.xml:16:22-64
+uses-permission#android.permission.CAMERA
+ADDED from C:\Users\choff6-gtri\AndroidStudioProjects\MyContactList\app\src\main\AndroidManifest.xml:17:5-65
+	android:name
+		ADDED from C:\Users\choff6-gtri\AndroidStudioProjects\MyContactList\app\src\main\AndroidManifest.xml:17:22-62
 uses-feature#0x00020000
-ADDED from C:\Users\choff6-gtri\AndroidStudioProjects\MyContactList\app\src\main\AndroidManifest.xml:17:5-19:35
+ADDED from C:\Users\choff6-gtri\AndroidStudioProjects\MyContactList\app\src\main\AndroidManifest.xml:19:5-21:35
 MERGED from [com.google.android.gms:play-services-maps:12.0.1] C:\Users\choff6-gtri\.gradle\caches\transforms-1\files-1.1\play-services-maps-12.0.1.aar\9bdca6320739a33d59abdd7b14eea8e5\AndroidManifest.xml:26:5-28:35
 MERGED from [com.google.android.gms:play-services-maps:12.0.1] C:\Users\choff6-gtri\.gradle\caches\transforms-1\files-1.1\play-services-maps-12.0.1.aar\9bdca6320739a33d59abdd7b14eea8e5\AndroidManifest.xml:26:5-28:35
 	android:glEsVersion
-		ADDED from C:\Users\choff6-gtri\AndroidStudioProjects\MyContactList\app\src\main\AndroidManifest.xml:18:9-41
+		ADDED from C:\Users\choff6-gtri\AndroidStudioProjects\MyContactList\app\src\main\AndroidManifest.xml:20:9-41
 	android:required
-		ADDED from C:\Users\choff6-gtri\AndroidStudioProjects\MyContactList\app\src\main\AndroidManifest.xml:19:9-32
+		ADDED from C:\Users\choff6-gtri\AndroidStudioProjects\MyContactList\app\src\main\AndroidManifest.xml:21:9-32
 uses-permission#android.permission.ACCESS_COARSE_LOCATION
-ADDED from C:\Users\choff6-gtri\AndroidStudioProjects\MyContactList\app\src\main\AndroidManifest.xml:21:5-81
+ADDED from C:\Users\choff6-gtri\AndroidStudioProjects\MyContactList\app\src\main\AndroidManifest.xml:23:5-81
 	android:name
-		ADDED from C:\Users\choff6-gtri\AndroidStudioProjects\MyContactList\app\src\main\AndroidManifest.xml:21:22-78
+		ADDED from C:\Users\choff6-gtri\AndroidStudioProjects\MyContactList\app\src\main\AndroidManifest.xml:23:22-78
 uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from C:\Users\choff6-gtri\AndroidStudioProjects\MyContactList\app\src\main\AndroidManifest.xml:22:5-79
+ADDED from C:\Users\choff6-gtri\AndroidStudioProjects\MyContactList\app\src\main\AndroidManifest.xml:24:5-79
 	android:name
-		ADDED from C:\Users\choff6-gtri\AndroidStudioProjects\MyContactList\app\src\main\AndroidManifest.xml:22:22-76
+		ADDED from C:\Users\choff6-gtri\AndroidStudioProjects\MyContactList\app\src\main\AndroidManifest.xml:24:22-76
 application
-ADDED from C:\Users\choff6-gtri\AndroidStudioProjects\MyContactList\app\src\main\AndroidManifest.xml:24:5-47:19
+ADDED from C:\Users\choff6-gtri\AndroidStudioProjects\MyContactList\app\src\main\AndroidManifest.xml:26:5-49:19
 MERGED from [com.android.support:design:28.0.0] C:\Users\choff6-gtri\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\4bc9638c221db351e7a06b0a798d8b0e\AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:design:28.0.0] C:\Users\choff6-gtri\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\4bc9638c221db351e7a06b0a798d8b0e\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.gms:play-services:12.0.1] C:\Users\choff6-gtri\.gradle\caches\transforms-1\files-1.1\play-services-12.0.1.aar\ef55f9742f47f2632f1516d1df307ed5\AndroidManifest.xml:5:5-20
@@ -445,53 +457,53 @@ MERGED from [com.google.android.gms:play-services-wearable-license:12.0.1] C:\Us
 	android:appComponentFactory
 		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\choff6-gtri\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\5c388d087ee2b093790db3dd87e3e826\AndroidManifest.xml:22:18-91
 	android:supportsRtl
-		ADDED from C:\Users\choff6-gtri\AndroidStudioProjects\MyContactList\app\src\main\AndroidManifest.xml:28:9-35
+		ADDED from C:\Users\choff6-gtri\AndroidStudioProjects\MyContactList\app\src\main\AndroidManifest.xml:30:9-35
 	android:label
-		ADDED from C:\Users\choff6-gtri\AndroidStudioProjects\MyContactList\app\src\main\AndroidManifest.xml:27:9-41
+		ADDED from C:\Users\choff6-gtri\AndroidStudioProjects\MyContactList\app\src\main\AndroidManifest.xml:29:9-41
 	android:icon
-		ADDED from C:\Users\choff6-gtri\AndroidStudioProjects\MyContactList\app\src\main\AndroidManifest.xml:26:9-56
+		ADDED from C:\Users\choff6-gtri\AndroidStudioProjects\MyContactList\app\src\main\AndroidManifest.xml:28:9-56
 	android:allowBackup
-		ADDED from C:\Users\choff6-gtri\AndroidStudioProjects\MyContactList\app\src\main\AndroidManifest.xml:25:9-35
+		ADDED from C:\Users\choff6-gtri\AndroidStudioProjects\MyContactList\app\src\main\AndroidManifest.xml:27:9-35
 	android:theme
-		ADDED from C:\Users\choff6-gtri\AndroidStudioProjects\MyContactList\app\src\main\AndroidManifest.xml:29:9-40
+		ADDED from C:\Users\choff6-gtri\AndroidStudioProjects\MyContactList\app\src\main\AndroidManifest.xml:31:9-40
 activity#com.example.mycontactlist.ContactListActivity
-ADDED from C:\Users\choff6-gtri\AndroidStudioProjects\MyContactList\app\src\main\AndroidManifest.xml:30:9-36:20
+ADDED from C:\Users\choff6-gtri\AndroidStudioProjects\MyContactList\app\src\main\AndroidManifest.xml:32:9-38:20
 	android:name
-		ADDED from C:\Users\choff6-gtri\AndroidStudioProjects\MyContactList\app\src\main\AndroidManifest.xml:30:19-54
+		ADDED from C:\Users\choff6-gtri\AndroidStudioProjects\MyContactList\app\src\main\AndroidManifest.xml:32:19-54
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\choff6-gtri\AndroidStudioProjects\MyContactList\app\src\main\AndroidManifest.xml:31:13-35:29
+ADDED from C:\Users\choff6-gtri\AndroidStudioProjects\MyContactList\app\src\main\AndroidManifest.xml:33:13-37:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\choff6-gtri\AndroidStudioProjects\MyContactList\app\src\main\AndroidManifest.xml:32:17-69
+ADDED from C:\Users\choff6-gtri\AndroidStudioProjects\MyContactList\app\src\main\AndroidManifest.xml:34:17-69
 	android:name
-		ADDED from C:\Users\choff6-gtri\AndroidStudioProjects\MyContactList\app\src\main\AndroidManifest.xml:32:25-66
+		ADDED from C:\Users\choff6-gtri\AndroidStudioProjects\MyContactList\app\src\main\AndroidManifest.xml:34:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\choff6-gtri\AndroidStudioProjects\MyContactList\app\src\main\AndroidManifest.xml:34:17-77
+ADDED from C:\Users\choff6-gtri\AndroidStudioProjects\MyContactList\app\src\main\AndroidManifest.xml:36:17-77
 	android:name
-		ADDED from C:\Users\choff6-gtri\AndroidStudioProjects\MyContactList\app\src\main\AndroidManifest.xml:34:27-74
+		ADDED from C:\Users\choff6-gtri\AndroidStudioProjects\MyContactList\app\src\main\AndroidManifest.xml:36:27-74
 activity#com.example.mycontactlist.ContactActivity
-ADDED from C:\Users\choff6-gtri\AndroidStudioProjects\MyContactList\app\src\main\AndroidManifest.xml:37:9-53
+ADDED from C:\Users\choff6-gtri\AndroidStudioProjects\MyContactList\app\src\main\AndroidManifest.xml:39:9-53
 	android:name
-		ADDED from C:\Users\choff6-gtri\AndroidStudioProjects\MyContactList\app\src\main\AndroidManifest.xml:37:19-50
+		ADDED from C:\Users\choff6-gtri\AndroidStudioProjects\MyContactList\app\src\main\AndroidManifest.xml:39:19-50
 activity#com.example.mycontactlist.ContactMapActivity
-ADDED from C:\Users\choff6-gtri\AndroidStudioProjects\MyContactList\app\src\main\AndroidManifest.xml:38:9-56
+ADDED from C:\Users\choff6-gtri\AndroidStudioProjects\MyContactList\app\src\main\AndroidManifest.xml:40:9-56
 	android:name
-		ADDED from C:\Users\choff6-gtri\AndroidStudioProjects\MyContactList\app\src\main\AndroidManifest.xml:38:19-53
+		ADDED from C:\Users\choff6-gtri\AndroidStudioProjects\MyContactList\app\src\main\AndroidManifest.xml:40:19-53
 activity#com.example.mycontactlist.ContactSettingsActivity
-ADDED from C:\Users\choff6-gtri\AndroidStudioProjects\MyContactList\app\src\main\AndroidManifest.xml:39:9-60
+ADDED from C:\Users\choff6-gtri\AndroidStudioProjects\MyContactList\app\src\main\AndroidManifest.xml:41:9-60
 	android:name
-		ADDED from C:\Users\choff6-gtri\AndroidStudioProjects\MyContactList\app\src\main\AndroidManifest.xml:39:19-58
+		ADDED from C:\Users\choff6-gtri\AndroidStudioProjects\MyContactList\app\src\main\AndroidManifest.xml:41:19-58
 meta-data#com.google.android.maps.v2.API_KEY
-ADDED from C:\Users\choff6-gtri\AndroidStudioProjects\MyContactList\app\src\main\AndroidManifest.xml:41:9-43:71
+ADDED from C:\Users\choff6-gtri\AndroidStudioProjects\MyContactList\app\src\main\AndroidManifest.xml:43:9-45:71
 	android:value
-		ADDED from C:\Users\choff6-gtri\AndroidStudioProjects\MyContactList\app\src\main\AndroidManifest.xml:43:13-68
+		ADDED from C:\Users\choff6-gtri\AndroidStudioProjects\MyContactList\app\src\main\AndroidManifest.xml:45:13-68
 	android:name
-		ADDED from C:\Users\choff6-gtri\AndroidStudioProjects\MyContactList\app\src\main\AndroidManifest.xml:42:13-62
+		ADDED from C:\Users\choff6-gtri\AndroidStudioProjects\MyContactList\app\src\main\AndroidManifest.xml:44:13-62
 uses-library#org.apache.http.legacy
-ADDED from C:\Users\choff6-gtri\AndroidStudioProjects\MyContactList\app\src\main\AndroidManifest.xml:45:9-87
+ADDED from C:\Users\choff6-gtri\AndroidStudioProjects\MyContactList\app\src\main\AndroidManifest.xml:47:9-87
 	android:required
-		ADDED from C:\Users\choff6-gtri\AndroidStudioProjects\MyContactList\app\src\main\AndroidManifest.xml:45:61-85
+		ADDED from C:\Users\choff6-gtri\AndroidStudioProjects\MyContactList\app\src\main\AndroidManifest.xml:47:61-85
 	android:name
-		ADDED from C:\Users\choff6-gtri\AndroidStudioProjects\MyContactList\app\src\main\AndroidManifest.xml:45:23-60
+		ADDED from C:\Users\choff6-gtri\AndroidStudioProjects\MyContactList\app\src\main\AndroidManifest.xml:47:23-60
 uses-sdk
 INJECTED from C:\Users\choff6-gtri\AndroidStudioProjects\MyContactList\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\choff6-gtri\AndroidStudioProjects\MyContactList\app\src\main\AndroidManifest.xml

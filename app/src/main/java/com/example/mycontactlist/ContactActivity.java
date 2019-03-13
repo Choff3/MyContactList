@@ -39,6 +39,7 @@ public class ContactActivity extends AppCompatActivity implements DatePickerDial
     private Contact currentContact;
     final int PERMISSION_REQUEST_PHONE = 102;
     final int PERMISSION_REQUEST_CAMERA = 103;
+    final int PERMISSION_REQUEST_SMS = 104;
     final int CAMERA_REQUEST = 1888;
 
     @Override
@@ -281,10 +282,36 @@ public class ContactActivity extends AppCompatActivity implements DatePickerDial
 
             @Override
             public boolean onLongClick(View arg0) {
-                checkPhonePermission(currentContact.getCellNumber());
+                checkTextPermission(currentContact.getCellNumber());
                 return false;
             }
         });
+    }
+
+    private void checkTextPermission(String phoneNumber) {
+        if (Build.VERSION.SDK_INT >= 23) {
+            if (ContextCompat.checkSelfPermission(ContactActivity.this, android.Manifest.permission.SEND_SMS) != PackageManager.PERMISSION_GRANTED) {
+
+                if (ActivityCompat.shouldShowRequestPermissionRationale(ContactActivity.this, android.Manifest.permission.SEND_SMS)) {
+
+                    Snackbar.make(findViewById(R.id.activity_contact), "MyContactList requires this permission to place a call from the app.", Snackbar.LENGTH_INDEFINITE).setAction("OK", new View.OnClickListener() {
+
+                        @Override
+                        public void onClick(View view) {
+
+                            ActivityCompat.requestPermissions(ContactActivity.this, new String[]{android.Manifest.permission.SEND_SMS}, PERMISSION_REQUEST_SMS);
+                        }
+                    }).show();
+
+                } else {
+                    ActivityCompat.requestPermissions(ContactActivity.this, new String[]{android.Manifest.permission.SEND_SMS}, PERMISSION_REQUEST_SMS);
+                }
+            } else {
+                textContact(phoneNumber);
+            }
+        } else {
+            textContact(phoneNumber);
+        }
     }
 
     private void checkPhonePermission(String phoneNumber) {
@@ -322,6 +349,17 @@ public class ContactActivity extends AppCompatActivity implements DatePickerDial
         else {
             startActivity(intent);
         }
+    }
+
+    private void textContact(String phoneNumber) {
+        Uri uri = Uri.parse("smsto:"+phoneNumber);
+        Intent intent = new Intent(Intent.ACTION_SENDTO, uri);
+       /* if ( Build.VERSION.SDK_INT >= 23 && ContextCompat.checkSelfPermission(getBaseContext(), android.Manifest.permission.SEND_SMS ) != PackageManager.PERMISSION_GRANTED) {
+            return  ;
+        }
+        else {
+*/            startActivity(intent);
+      //  }
     }
 
     private void initImageButton() {
@@ -503,6 +541,13 @@ public class ContactActivity extends AppCompatActivity implements DatePickerDial
                     takePhoto();
                 } else {
                     Toast.makeText(ContactActivity.this, "You will not be able to save contact pictures from this app", Toast.LENGTH_LONG).show();
+                }
+            }
+            case PERMISSION_REQUEST_SMS: {
+                if (grantResults.length > 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
+                    Toast.makeText(ContactActivity.this, "You may now text from this app.", Toast.LENGTH_LONG).show();
+                } else {
+                    Toast.makeText(ContactActivity.this, "You will not be able to send texts from this app", Toast.LENGTH_LONG).show();
                 }
             }
         }

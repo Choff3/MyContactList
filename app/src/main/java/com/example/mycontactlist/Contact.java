@@ -4,10 +4,6 @@ import android.graphics.Bitmap;
 
 import java.util.Calendar;
 
-/**
- * Created by Michael Eierman on 11/10/2016.
- */
-
 public class Contact {
 
     private int contactID;
